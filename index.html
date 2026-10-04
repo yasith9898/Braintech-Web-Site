@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Braintech Solutions - Modern, professional IT services and software development company. Specializing in Web Development, Mobile Apps, Cloud Solutions, and AI integrations.">
+    <meta name="keywords" content="IT company, software development, web development, mobile apps, cloud computing, AI, UI UX, modern tech company">
+    <meta name="author" content="Braintech Solutions">
+    <title>Braintech - Future-Proof IT & Software Solutions</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Devicon Icons (Tech Logos) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
+    <!-- AOS Scroll Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-logo">BRAIN<span>TECH</span></div>
+        </div>
+    </div>
+
+    <!-- Background Blobs -->
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                BRAIN<span>TECH</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#technologies">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <a class="btn-primary-grad" href="#contact">Get a Quote</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Hero Text -->
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="custom-badge mb-3">
+                        <i class="fa-solid fa-bolt"></i> Elevating Digital Standards
+                    </div>
+                    <h1 class="display-4 mb-3">
+                        Architecting the <span class="gradient-text">Future of IT Solutions</span>
+                    </h1>
+                    <p class="hero-subtitle text-secondary mb-4">
+                        We build intelligent applications, scalable cloud ecosystems, and modern software architectures designed to propel global enterprises and SaaS startups forward.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#services" class="btn-primary-grad">Explore Services</a>
+                        <a href="#contact" class="btn-outline-custom">Schedule a Consultation</a>
+                    </div>
+                    <!-- Mini Stats -->
+                    <div class="row hero-stats">
+                        <div class="col-6 col-sm-4 mb-3">
+                            <div class="hero-stat-item">
+                                <h3>99.9%</h3>
+                                <p>Service Uptime</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 mb-3">
+                            <div class="hero-stat-item">
+                                <h3>250+</h3>
+                                <p>Succeed Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hero Interactive Graphics -->
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-gfx-container">
+                        <div class="hero-gfx-glow"></div>
+                        <!-- Inline SVG representing futuristic cloud & nodes infrastructure -->
+                        <svg class="hero-svg" width="550" height="420" viewBox="0 0 550 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Background Grid Panel -->
+                            <rect class="float-element-delay" x="20" y="20" width="510" height="380" rx="24" fill="rgba(255, 255, 255, 0.02)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="2"/>
+                            
+                            <!-- Glowing Node Connections -->
+                            <path class="float-element" d="M120 180L275 90L430 180L275 270L120 180Z" stroke="rgba(99, 102, 241, 0.4)" stroke-width="2" stroke-dasharray="6 6"/>
+                            <path class="float-element" d="M120 220L275 130L430 220L275 310L120 220Z" stroke="rgba(6, 182, 212, 0.4)" stroke-width="2" stroke-dasharray="6 6"/>
+                            
+                            <!-- Central Hologram Tower -->
+                            <g class="float-element">
+                                <circle cx="275" cy="180" r="45" fill="url(#grad-svg-purple)" opacity="0.15"/>
+                                <circle cx="275" cy="180" r="30" stroke="url(#grad-svg-cyan)" stroke-width="2"/>
+                                <circle cx="275" cy="180" r="8" fill="#06b6d4"/>
+                                <line x1="275" y1="180" x2="275" y2="90" stroke="#8b5cf6" stroke-width="2"/>
+                                <line x1="275" y1="180" x2="120" y2="180" stroke="#6366f1" stroke-width="2"/>
+                                <line x1="275" y1="180" x2="430" y2="180" stroke="#06b6d4" stroke-width="2"/>
+                                <line x1="275" y1="180" x2="275" y2="270" stroke="#8b5cf6" stroke-width="2"/>
+                            </g>
+                            
+                            <!-- Outer Node Points -->
+                            <g class="float-element-delay">
+                                <circle cx="120" cy="180" r="10" fill="#6366f1"/>
+                                <circle cx="120" cy="180" r="18" stroke="#6366f1" stroke-width="1.5" opacity="0.5"/>
+                                
+                                <circle cx="430" cy="180" r="10" fill="#06b6d4"/>
+                                <circle cx="430" cy="180" r="18" stroke="#06b6d4" stroke-width="1.5" opacity="0.5"/>
+                                
+                                <circle cx="275" cy="90" r="10" fill="#8b5cf6"/>
+                                <circle cx="275" cy="90" r="18" stroke="#8b5cf6" stroke-width="1.5" opacity="0.5"/>
+                                
+                                <circle cx="275" cy="270" r="10" fill="#8b5cf6"/>
+                                <circle cx="275" cy="270" r="18" stroke="#8b5cf6" stroke-width="1.5" opacity="0.5"/>
+                            </g>
+
+                            <!-- Gradient Definitions for SVG -->
+                            <defs>
+                                <linearGradient id="grad-svg-purple" x1="275" y1="135" x2="275" y2="225" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0%" stop-color="#8b5cf6"/>
+                                    <stop offset="100%" stop-color="#6366f1"/>
+                                </linearGradient>
+                                <linearGradient id="grad-svg-cyan" x1="245" y1="180" x2="305" y2="180" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0%" stop-color="#06b6d4"/>
+                                    <stop offset="100%" stop-color="#3b82f6"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- About Side Graphics -->
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-image-wrapper pe-lg-4">
+                        <!-- Custom Generated Stylized Vector Illustration as an SVG/Card block -->
+                        <div class="glass-card text-center py-5">
+                            <div class="floating-actions position-relative d-inline-flex mb-4 gap-2">
+                                <span class="about-feature-icon"><i class="fa-solid fa-lightbulb"></i></span>
+                                <span class="about-feature-icon"><i class="fa-solid fa-code"></i></span>
+                                <span class="about-feature-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                            </div>
+                            <h3>Innovative IT Engineering</h3>
+                            <p class="px-3">We engineer solutions using the most stable code frameworks, enabling security and horizontal scalability by default.</p>
+                            <div class="row mt-4 px-3 justify-content-center">
+                                <div class="col-4 border-end border-secondary-subtle">
+                                    <h5 class="mb-0 text-white">ISO</h5>
+                                    <small class="text-muted">9001:2015</small>
+                                </div>
+                                <div class="col-4 border-end border-secondary-subtle">
+                                    <h5 class="mb-0 text-white">24/7</h5>
+                                    <small class="text-muted">Support</small>
+                                </div>
+                                <div class="col-4">
+                                    <h5 class="mb-0 text-white">100%</h5>
+                                    <small class="text-muted">Secure</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- About Description -->
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="section-title-wrapper mb-4">
+                        <span class="section-subtitle">Who We Are</span>
+                        <h2 class="section-title">Leading the Way in Global <span class="gradient-text">IT Excellence</span></h2>
+                    </div>
+                    <p class="mb-4">
+                        Founded with a mission to simplify digital complexity, Braintech provides comprehensive technology planning, infrastructure architecture, custom application builds, and AI implementation. We partner with companies to create robust technological ecosystems.
+                    </p>
+                    
+                    <!-- Vision and Mission Accordion/Tabs -->
+                    <div class="accordion accordion-flush" id="aboutAccordion">
+                        <div class="accordion-item bg-transparent border-bottom border-secondary-subtle">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button bg-transparent text-white collapsed fw-semibold py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <i class="fa-solid fa-circle-check text-cyan me-3"></i> Our Mission
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#aboutAccordion">
+                                <div class="accordion-body text-secondary">
+                                    To empower organizations by delivering superior, cost-effective digital strategies and architectures that foster operational resilience and drive commercial growth.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-transparent border-bottom border-secondary-subtle">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button bg-transparent text-white collapsed fw-semibold py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fa-solid fa-eye text-violet me-3"></i> Our Vision
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#aboutAccordion">
+                                <div class="accordion-body text-secondary">
+                                    To establish ourselves as the world’s most trusted technology partner, renowned for crafting scalable software systems and shaping future digital ecosystems.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-transparent">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button bg-transparent text-white collapsed fw-semibold py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="fa-solid fa-shield text-indigo me-3"></i> Premium Security Standards
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#aboutAccordion">
+                                <div class="accordion-body text-secondary">
+                                    We adhere to strict data security frameworks and military-grade encryption systems, guaranteeing user data is handled with maximum compliance.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Presentation -->
+            <div class="row mt-5 pt-5 justify-content-center">
+                <div class="col-lg-8 text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Leadership</span>
+                    <h2 class="section-title">Meet Our <span class="gradient-text">Core Engineers</span></h2>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Team Member 1 -->
+                <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-card team-card">
+                        <div class="team-img-wrapper">
+                            <!-- High quality CSS styling as avatar holder -->
+                            <div class="team-img bg-secondary d-flex align-items-center justify-content-center text-white" style="background: linear-gradient(135deg, #6366f1 0%, #3b82f6 100%);">
+                                <i class="fa-solid fa-user-tie" style="font-size: 5rem; opacity: 0.85;"></i>
+                            </div>
+                            <div class="team-socials">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <h4>Julian Reynolds</h4>
+                            <p>CEO & Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="glass-card team-card">
+                        <div class="team-img-wrapper">
+                            <div class="team-img bg-secondary d-flex align-items-center justify-content-center text-white" style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);">
+                                <i class="fa-solid fa-laptop-code" style="font-size: 5rem; opacity: 0.85;"></i>
+                            </div>
+                            <div class="team-socials">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <h4>Elena Rostova</h4>
+                            <p>Chief Technology Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="glass-card team-card">
+                        <div class="team-img-wrapper">
+                            <div class="team-img bg-secondary d-flex align-items-center justify-content-center text-white" style="background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);">
+                                <i class="fa-solid fa-server" style="font-size: 5rem; opacity: 0.85;"></i>
+                            </div>
+                            <div class="team-socials">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <h4>Marcus Vance</h4>
+                            <p>Head of Cloud & Security</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="glass-card team-card">
+                        <div class="team-img-wrapper">
+                            <div class="team-img bg-secondary d-flex align-items-center justify-content-center text-white" style="background: linear-gradient(135deg, #f59e0b 0%, #ec4899 100%);">
+                                <i class="fa-solid fa-brain" style="font-size: 5rem; opacity: 0.85;"></i>
+                            </div>
+                            <div class="team-socials">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-details">
+                            <h4>Sanjay Patel</h4>
+                            <p>Lead AI Scientist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Counter Banner -->
+    <div class="stats-banner">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="counter-num" data-target="320" data-suffix="+">0</div>
+                    <div class="counter-title">Completed Projects</div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="counter-num" data-target="98" data-suffix="%">0</div>
+                    <div class="counter-title">Client Satisfaction</div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="counter-num" data-target="45" data-suffix="+">0</div>
+                    <div class="counter-title">Expert Engineers</div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="counter-num" data-target="12" data-suffix="">0</div>
+                    <div class="counter-title">Years of Innovation</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Services We Offer</span>
+                    <h2 class="section-title">High-Performance <span class="gradient-text">IT Solutions</span></h2>
+                    <p class="text-secondary">We build high-performance products tailored for stability, reliability, and enterprise-grade performance.</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Service 1: Web Development -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-card service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h4>Web Development</h4>
+                        <p>High-end fullstack websites and web apps optimized for lightning-fast speeds, responsive designs, and core SEO indexing frameworks.</p>
+                        <a href="#contact" class="service-link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 2: Mobile App Development -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="glass-card service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <h4>Mobile App Development</h4>
+                        <p>Immersive, native iOS and Android architectures using React Native and Flutter frameworks to guarantee peak performance.</p>
+                        <a href="#contact" class="service-link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 3: UI/UX Design -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="glass-card service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                        </div>
+                        <h4>UI/UX Design</h4>
+                        <p>Creating functional layouts, brand visual guidelines, and clickable interactive mockups emphasizing conversion metrics.</p>
+                        <a href="#contact" class="service-link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 4: Cloud Solutions -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="glass-card service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                        </div>
+                        <h4>Cloud Solutions</h4>
+                        <p>Robust cloud server architecture, database clustering, CI/CD pipeline management, and microservice infrastructure mapping.</p>
+                        <a href="#contact" class="service-link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 5: AI Solutions -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="glass-card service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h4>AI Solutions</h4>
+                        <p>Integrating large language models (LLMs), machine learning pipelines, predictive analytics engines, and neural networks.</p>
+                        <a href="#contact" class="service-link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 6: Software Maintenance -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="glass-card service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fa-solid fa-toolbox"></i>
+                        </div>
+                        <h4>Software Maintenance</h4>
+                        <p>Continuous monitoring, bug diagnostic patching, security audits, database cleanups, and framework dependency updates.</p>
+                        <a href="#contact" class="service-link">Inquire Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Technologies Section -->
+    <section id="technologies" class="technologies-section bg-darker">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Our Stack</span>
+                    <h2 class="section-title">Technologies We <span class="gradient-text">Work With</span></h2>
+                    <p class="text-secondary">Leveraging industry-standard languages, engines, databases, and container environments to construct superior builds.</p>
+                </div>
+            </div>
+
+            <!-- Tech Grid -->
+            <div class="tech-grid" data-aos="fade-up">
+                <!-- HTML5 -->
+                <div class="tech-item" data-tech="html5">
+                    <div class="tech-icon-container">
+                        <i class="devicon-html5-plain"></i>
+                    </div>
+                    <h5 class="tech-name">HTML5</h5>
+                </div>
+                <!-- CSS3 -->
+                <div class="tech-item" data-tech="css3">
+                    <div class="tech-icon-container">
+                        <i class="devicon-css3-plain"></i>
+                    </div>
+                    <h5 class="tech-name">CSS3</h5>
+                </div>
+                <!-- JavaScript -->
+                <div class="tech-item" data-tech="javascript">
+                    <div class="tech-icon-container">
+                        <i class="devicon-javascript-plain"></i>
+                    </div>
+                    <h5 class="tech-name">JavaScript</h5>
+                </div>
+                <!-- Bootstrap -->
+                <div class="tech-item" data-tech="bootstrap">
+                    <div class="tech-icon-container">
+                        <i class="devicon-bootstrap-plain"></i>
+                    </div>
+                    <h5 class="tech-name">Bootstrap</h5>
+                </div>
+                <!-- React -->
+                <div class="tech-item" data-tech="react">
+                    <div class="tech-icon-container">
+                        <i class="devicon-react-original"></i>
+                    </div>
+                    <h5 class="tech-name">React</h5>
+                </div>
+                <!-- Laravel -->
+                <div class="tech-item" data-tech="laravel">
+                    <div class="tech-icon-container">
+                        <i class="devicon-laravel-plain"></i>
+                    </div>
+                    <h5 class="tech-name">Laravel</h5>
+                </div>
+                <!-- PHP -->
+                <div class="tech-item" data-tech="php">
+                    <div class="tech-icon-container">
+                        <i class="devicon-php-plain"></i>
+                    </div>
+                    <h5 class="tech-name">PHP</h5>
+                </div>
+                <!-- Node.js -->
+                <div class="tech-item" data-tech="node">
+                    <div class="tech-icon-container">
+                        <i class="devicon-nodejs-plain"></i>
+                    </div>
+                    <h5 class="tech-name">Node.js</h5>
+                </div>
+                <!-- MySQL -->
+                <div class="tech-item" data-tech="mysql">
+                    <div class="tech-icon-container">
+                        <i class="devicon-mysql-plain"></i>
+                    </div>
+                    <h5 class="tech-name">MySQL</h5>
+                </div>
+                <!-- MongoDB -->
+                <div class="tech-item" data-tech="mongodb">
+                    <div class="tech-icon-container">
+                        <i class="devicon-mongodb-plain"></i>
+                    </div>
+                    <h5 class="tech-name">MongoDB</h5>
+                </div>
+                <!-- GitHub -->
+                <div class="tech-item" data-tech="github">
+                    <div class="tech-icon-container">
+                        <i class="devicon-github-original"></i>
+                    </div>
+                    <h5 class="tech-name">GitHub</h5>
+                </div>
+                <!-- Docker -->
+                <div class="tech-item" data-tech="docker">
+                    <div class="tech-icon-container">
+                        <i class="devicon-docker-plain"></i>
+                    </div>
+                    <h5 class="tech-name">Docker</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Work (Portfolio) Section -->
+    <section id="work" class="work-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Recent Projects</span>
+                    <h2 class="section-title">Our Case <span class="gradient-text">Studies</span></h2>
+                    <p class="text-secondary">Explore our recent project builds mapping custom code solutions to real enterprise outcomes.</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Filters -->
+            <div class="portfolio-filter-nav" data-aos="fade-up">
+                <button class="portfolio-filter-btn active" data-filter="all">All Projects</button>
+                <button class="portfolio-filter-btn" data-filter="web">Web Dev</button>
+                <button class="portfolio-filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="portfolio-filter-btn" data-filter="cloud">Cloud / AI</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="portfolio-grid" data-aos="fade-up">
+                <!-- Project 1 (Web / UI) -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-wrapper">
+                            <div class="portfolio-img" style="background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%); height: 100%; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 3rem;">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="portfolio-link-btn"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <span class="portfolio-tag">E-Commerce Platform</span>
+                            <h4>NextGen E-Commerce Suite</h4>
+                            <ul class="portfolio-tech-list">
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                                <li>Docker</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 (Mobile) -->
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-wrapper">
+                            <div class="portfolio-img" style="background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%); height: 100%; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 3rem;">
+                                <i class="fa-solid fa-wallet"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="portfolio-link-btn"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <span class="portfolio-tag">Fintech App</span>
+                            <h4>Apex Wealth Mobile Wallet</h4>
+                            <ul class="portfolio-tech-list">
+                                <li>React Native</li>
+                                <li>Node.js</li>
+                                <li>MySQL</li>
+                                <li>GitHub</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 (Cloud / AI) -->
+                <div class="portfolio-item" data-category="cloud">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-wrapper">
+                            <div class="portfolio-img" style="background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%); height: 100%; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 3rem;">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="portfolio-link-btn"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <span class="portfolio-tag">Machine Learning</span>
+                            <h4>AI Health Diagnostics</h4>
+                            <ul class="portfolio-tech-list">
+                                <li>Python</li>
+                                <li>React</li>
+                                <li>MongoDB</li>
+                                <li>Docker</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 (Web) -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-wrapper">
+                            <div class="portfolio-img" style="background: linear-gradient(135deg, #ec4899 0%, #f59e0b 100%); height: 100%; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 3rem;">
+                                <i class="fa-solid fa-table-columns"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="portfolio-link-btn"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <span class="portfolio-tag">SaaS Platform</span>
+                            <h4>B2B Cloud Analytics Panel</h4>
+                            <ul class="portfolio-tech-list">
+                                <li>Laravel</li>
+                                <li>PHP</li>
+                                <li>Bootstrap</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 (Cloud / AI) -->
+                <div class="portfolio-item" data-category="cloud">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-wrapper">
+                            <div class="portfolio-img" style="background: linear-gradient(135deg, #f59e0b 0%, #10b981 100%); height: 100%; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 3rem;">
+                                <i class="fa-solid fa-cloud"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="portfolio-link-btn"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <span class="portfolio-tag">Server Infrastructure</span>
+                            <h4>ScaleSync Enterprise Cloud</h4>
+                            <ul class="portfolio-tech-list">
+                                <li>Docker</li>
+                                <li>Node.js</li>
+                                <li>MySQL</li>
+                                <li>GitHub</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 (Mobile) -->
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-wrapper">
+                            <div class="portfolio-img" style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); height: 100%; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 3rem;">
+                                <i class="fa-solid fa-truck-fast"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="portfolio-link-btn"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <span class="portfolio-tag">Logistics Solutions</span>
+                            <h4>RouteFlow IoT Transit Hub</h4>
+                            <ul class="portfolio-tech-list">
+                                <li>React Native</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                                <li>Docker</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Contact Section -->
+    <section id="contact" class="contact-section bg-darker">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5" data-aos="fade-up">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Let's Build Something <span class="gradient-text">Exceptional</span></h2>
+                    <p class="text-secondary">Send us an inquiry or project spec sheets, and our technical leads will reach out within 24 hours.</p>
+                </div>
+            </div>
+
+            <div class="row g-4 align-items-stretch">
+                <!-- Contact Details / Info Cards -->
+                <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="contact-info-wrapper h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <!-- Address -->
+                            <div class="glass-card contact-info-card mb-3">
+                                <div class="contact-info-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <h5>Corporate HQ</h5>
+                                    <p>500 Innovation Boulevard, Tech District, CA 94016</p>
+                                </div>
+                            </div>
+                            <!-- Email -->
+                            <div class="glass-card contact-info-card mb-3">
+                                <div class="contact-info-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <h5>Email Inquiry</h5>
+                                    <p>partners@braintech.solutions</p>
+                                </div>
+                            </div>
+                            <!-- Phone -->
+                            <div class="glass-card contact-info-card mb-3">
+                                <div class="contact-info-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="contact-info-text">
+                                    <h5>Direct Phone</h5>
+                                    <p>+1 (555) 234-5678</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Embedded Google Map -->
+                        <div class="map-container mt-4">
+                            <!-- Styled standard dark map overlay -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.50764020436814!3d37.75781499596399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Grid -->
+                <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="glass-card h-100">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 form-group-custom">
+                                    <label for="formName" class="form-label-custom">Full Name</label>
+                                    <input type="text" class="form-control form-control-custom w-100" id="formName" placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6 form-group-custom">
+                                    <label for="formEmail" class="form-label-custom">Email Address</label>
+                                    <input type="email" class="form-control form-control-custom w-100" id="formEmail" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group-custom">
+                                <label for="formSubject" class="form-label-custom">Subject</label>
+                                <input type="text" class="form-control form-control-custom w-100" id="formSubject" placeholder="Enterprise Web App Build" required>
+                            </div>
+                            <div class="form-group-custom">
+                                <label for="formMessage" class="form-label-custom">Project Scope / Details</label>
+                                <textarea class="form-control form-control-custom w-100" id="formMessage" rows="5" placeholder="Outline your timeline, goals, and technological requirements..." required></textarea>
+                            </div>
+                            <div class="mt-4 text-end">
+                                <button type="submit" class="btn-primary-grad">Submit spec sheets <i class="fa-solid fa-paper-plane ms-2"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Branding column -->
+                <div class="col-lg-4 col-md-6">
+                    <a class="footer-brand" href="#home">BRAIN<span>TECH</span></a>
+                    <p class="footer-desc text-secondary">
+                        Braintech is an elite IT solutions and software engineering firm constructing stable architectures, custom software applications, and predictive analytics infrastructures.
+                    </p>
+                    <div class="social-icons-contact mt-3">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Explore</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#technologies">Our Stack</a></li>
+                        <li><a href="#work">Case Studies</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-title">Support</h5>
+                    <ul class="footer-links">
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">System Status</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter / Sign up -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-title">Stay Updated</h5>
+                    <p class="text-secondary mb-3">Subscribe to our newsletter for insights on web architectures, cloud security, and neural systems developments.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your corporate email..." required>
+                        <button type="submit" class="newsletter-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Copyright and Credits -->
+            <div class="copyright-section">
+                <p class="copyright-text">&copy; 2026 Braintech Solutions. All rights reserved. Architected with Bootstrap 5.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Actions Container -->
+    <div class="floating-actions">
+        <!-- WhatsApp Chat Button -->
+        <button class="btn-floating btn-whatsapp" aria-label="Chat on WhatsApp">
+            <span class="whatsapp-badge"></span>
+            <i class="fa-brands fa-whatsapp"></i>
+        </button>
+        <!-- Scroll to Top Button -->
+        <button class="btn-floating btn-scroll-top" aria-label="Scroll to top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- Contact success Toast notification -->
+    <div class="custom-toast" id="contactToast">
+        <i class="fa-solid fa-circle-check custom-toast-icon"></i>
+        <div>
+            <h6 class="mb-0 text-white font-semibold">Specs Submitted Successfully!</h6>
+            <small class="text-secondary">Our lead engineer will contact you shortly.</small>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 Bundle with Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- AOS Scroll Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Init AOS -->
+    <script>
+        AOS.init({
+            once: true,
+            duration: 800,
+            offset: 100,
+            easing: 'ease-out-cubic'
+        });
+    </script>
+    
+    <!-- Custom JS Script -->
+    <script src="js/main.js"></script>
+</body>
+</html>
